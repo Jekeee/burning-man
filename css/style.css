@@ -1,0 +1,163 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    font-size: 16px;
+}
+
+
+h1,h2.h3.h4.h5.h6{
+     padding: 0;
+     margin: 0;
+     text-transform: uppercase;
+}
+
+ul,li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url('../img/header-bg.jpg') no-repeat center top / cover;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    
+}
+
+header a {
+    color: #fff ;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.1rem;
+}
+
+.menu li {
+    margin-right: 40px;
+}
+
+.tel {
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: auto;
+    letter-spacing: 0.1rem;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding-top: 57px;
+    margin-left: 216px;
+    
+}
+
+.logo {
+    
+    margin-right: 69px;
+}
+
+.offer {
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    margin-top: 321px;
+    margin-left: 216px;
+    color: #FFFFFF;
+    height: 400px;
+}
+
+
+
+.offer h1 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.btn {
+    font-size: 17px;
+    border: 1px solid #fff;
+    padding: 18px 23px; 
+}
+
+.about {
+    background-color: #fff;
+    margin-left: 216px;
+}
+
+.about h1 {
+    font-family: 'Anton';
+    font-size: 50px;
+    margin-top: 115px;
+    text-transform: uppercase;
+
+}
+
+.about h2 {
+    font-family: 'Anton';
+    font-size: 25px;
+    margin-top: 58px;
+    text-transform: uppercase;
+}
+
+.about p {
+    width: 564px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+
+
+}
+
+.text2 {
+    margin-left: 36px;
+}
+
+.about-section{
+    display: flex;
+    
+}
+
+.imgages-bottom {
+    margin-top: 113px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gooter-texts {
+    display: flex;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    justify-content: space-between;
+}
+
+.footer {
+    margin-left: 226px;
+    margin-top: 114px;
+}
+
+
