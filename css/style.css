@@ -46,6 +46,7 @@ header a {
 
 .menu {
     display: flex;
+    margin-left: 2rem;
 }
 
 .menu li a {
@@ -56,7 +57,7 @@ header a {
 }
 
 .menu li {
-    margin-right: 40px;
+    margin-right: 2rem;
 }
 
 .tel {
@@ -64,36 +65,32 @@ header a {
     text-decoration: none;
     margin-left: auto;
     letter-spacing: 0.1rem;
+    margin-right: 10%;
 }
 
 .nav {
     display: flex;
     align-items: center;
-    padding-top: 57px;
-    margin-left: 216px;
+    padding-top: 2rem;
+    margin-left: 10%;
     
-}
-
-.logo {
-    
-    margin-right: 69px;
 }
 
 .offer {
     text-transform: uppercase;
     font-size: 30px;
     letter-spacing: 0.1em;
-    margin-top: 321px;
-    margin-left: 216px;
+    margin-top: 20rem;
+    margin-left: 10%;
     color: #FFFFFF;
-    height: 400px;
+    height: 20rem;
 }
 
 
 
 .offer h1 {
     margin-top: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 
@@ -103,17 +100,20 @@ header a {
     font-size: 17px;
     border: 1px solid #fff;
     padding: 18px 23px; 
+    
 }
 
 .about {
     background-color: #fff;
-    margin-left: 216px;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
 }
 
 .about h1 {
     font-family: 'Anton';
     font-size: 50px;
-    margin-top: 115px;
+    margin-top: 5rem;
     text-transform: uppercase;
 
 }
@@ -126,11 +126,8 @@ header a {
 }
 
 .about p {
-    width: 564px;
     font-family: 'Open Sans';
     font-size: 16px;
-
-
 }
 
 .text2 {
@@ -143,7 +140,7 @@ header a {
 }
 
 .imgages-bottom {
-    margin-top: 113px;
+    margin-top: 2rem;
     display: flex;
     justify-content: space-between;
 }
@@ -156,8 +153,9 @@ header a {
 }
 
 .footer {
-    margin-left: 226px;
-    margin-top: 114px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3rem;
 }
 
 
