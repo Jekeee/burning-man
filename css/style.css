@@ -1,161 +1,669 @@
-body {
-    padding: 0;
-    margin: 0;
-    font-family: 'Anton', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    color: #000;
-    font-size: 16px;
+@media (max-width: 2000px){    
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: 'Anton', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        color: #000;
+        font-size: 16px;
+    }
+
+
+    h1,h2.h3.h4.h5.h6{
+        padding: 0;
+        margin: 0;
+        text-transform: uppercase;
+    }
+
+    ul,li {
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .header {
+        background: url('../img/header-bg.jpg') no-repeat center top / cover;
+        font-family: 'Anton', sans-serif;
+        color: #fff;
+        
+    }
+
+    header a {
+        color: #fff ;
+    }
+
+    .menu {
+        display: flex;
+        margin-left: 2rem;
+    }
+
+    .menu li a {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 14px;
+        letter-spacing: 0.1rem;
+    }
+
+    .menu li {
+        margin-right: 2rem;
+    }
+
+    .tel {
+        font-size: 17px;
+        text-decoration: none;
+        margin-left: auto;
+        letter-spacing: 0.1rem;
+        margin-right: 10%;
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+        padding-top: 2rem;
+        margin-left: 10%;
+        
+    }
+
+    .offer {
+        text-transform: uppercase;
+        font-size: 30px;
+        letter-spacing: 0.1em;
+        margin-top: 20rem;
+        margin-left: 10%;
+        color: #FFFFFF;
+        height: 20rem;
+    }
+
+
+
+    .offer h1 {
+        margin-top: 0px;
+        margin-bottom: 2rem;
+    }
+
+
+
+
+    .btn {
+        font-size: 17px;
+        border: 1px solid #fff;
+        padding: 18px 23px; 
+        
+    }
+
+    .about {
+        background-color: #fff;
+        margin-left: 10%;
+        margin-right: 10%;
+        align-items: center;
+    }
+
+    .about h1 {
+        font-family: 'Anton';
+        font-size: 50px;
+        margin-top: 5rem;
+        text-transform: uppercase;
+
+    }
+
+    .about h2 {
+        font-family: 'Anton';
+        font-size: 25px;
+        margin-top: 58px;
+        text-transform: uppercase;
+    }
+
+    .about p {
+        font-family: 'Open Sans';
+        font-size: 16px;
+    }
+
+    .text2 {
+        margin-left: 36px;
+    }
+
+    .about-section{
+        display: flex;
+        
+    }
+
+    .imgages-bottom {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .gooter-texts {
+        display: flex;
+        font-family: 'Open Sans';
+        font-size: 15px;
+        justify-content: space-between;
+    }
+
+    .footer {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 3rem;
+    }
 }
 
+@media (max-width: 992px){    
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: 'Anton', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        color: #000;
+        font-size: 12px;
+    }
 
-h1,h2.h3.h4.h5.h6{
-     padding: 0;
-     margin: 0;
-     text-transform: uppercase;
-}
 
-ul,li {
-    display: block;
-    padding: 0;
-    margin: 0;
-}
+    h1,h2.h3.h4.h5.h6{
+        padding: 0;
+        margin: 0;
+        text-transform: uppercase;
+    }
 
-p {
-    margin: 0;
-}
+    ul,li {
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
 
-a {
-    text-decoration: none;
-}
+    p {
+        margin: 0;
+    }
 
-.container {
-    width: 100%;
-    margin: 0 auto;
-}
+    a {
+        text-decoration: none;
+    }
 
-.header {
-    background: url('../img/header-bg.jpg') no-repeat center top / cover;
-    font-family: 'Anton', sans-serif;
-    color: #fff;
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .header {
+        background: url('../img/header-bg.jpg') no-repeat center top / cover;
+        font-family: 'Anton', sans-serif;
+        color: #fff;
+        
+    }
+
+    header a {
+        color: #fff ;
+    }
+
+    .menu {
+        display: flex;
+        margin-left: 2rem;
+    }
+
+    .menu li a {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 10px;
+        letter-spacing: 0.1rem;
+    }
+
+    .menu li {
+        margin-right: 2rem;
+    }
+
+    .tel {
+        font-size: 12px;
+        text-decoration: none;
+        margin-left: auto;
+        letter-spacing: 0.1rem;
+        margin-right: 5%;
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+        padding-top: 2rem;
+        margin-left: 5%;
+        
+    }
+
+    .offer {
+        text-transform: uppercase;
+        font-size: 21px;
+        letter-spacing: 0.1em;
+        margin-top: 7rem;
+        margin-left: 5%;
+        color: #FFFFFF;
+        height: 14rem;
+    }
+
+
+
+    .offer h1 {
+        margin-top: 0px;
+        margin-bottom: 2rem;
+    }
+
+
+
+
+    .btn {
+        font-size: 12px;
+        border: 1px solid #fff;
+        padding: 12px 15px; 
+        
+    }
+
+    .about {
+        background-color: #fff;
+        margin-left: 5%;
+        margin-right: 5%;
+        align-items: center;
+    }
+
+    .about h1 {
+        font-family: 'Anton';
+        font-size: 25px;
+        margin-top: 5rem;
+        text-transform: uppercase;
+
+    }
+
+    .about h2 {
+        font-family: 'Anton';
+        font-size: 12.5px;
+        margin-top: 2rem;
+        text-transform: uppercase;
+    }
+
+    .about p {
+        font-family: 'Open Sans';
+        font-size: 12px;
+    }
+
+    .text2 {
+        margin-left: 25px;
+    }
+
+    .about-section{
+        display: flex;
+        justify-content: space-between;
+        
+    }
     
-}
 
-header a {
-    color: #fff ;
-}
-
-.menu {
-    display: flex;
-    margin-left: 2rem;
-}
-
-.menu li a {
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 14px;
-    letter-spacing: 0.1rem;
-}
-
-.menu li {
-    margin-right: 2rem;
-}
-
-.tel {
-    font-size: 17px;
-    text-decoration: none;
-    margin-left: auto;
-    letter-spacing: 0.1rem;
-    margin-right: 10%;
-}
-
-.nav {
-    display: flex;
-    align-items: center;
-    padding-top: 2rem;
-    margin-left: 10%;
+    .imgages-bottom {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+    }
     
+    .imgages-bottom img {
+        width: 32%;
+    }
+
+    .gooter-texts {
+        display: flex;
+        font-family: 'Open Sans';
+        font-size: 10.5px;
+        justify-content: space-between;
+    }
+
+    .footer {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 2rem;
+    }
 }
 
-.offer {
-    text-transform: uppercase;
-    font-size: 30px;
-    letter-spacing: 0.1em;
-    margin-top: 20rem;
-    margin-left: 10%;
-    color: #FFFFFF;
-    height: 20rem;
-}
+@media (max-width: 768px){    
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: 'Anton', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        color: #000;
+        font-size: 10px;
+    }
+
+
+    h1,h2.h3.h4.h5.h6{
+        padding: 0;
+        margin: 0;
+        text-transform: uppercase;
+    }
+
+    ul,li {
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .header {
+        background: url('../img/header-bg.jpg') no-repeat center top / cover;
+        font-family: 'Anton', sans-serif;
+        color: #fff;
+        
+    }
+
+    header a {
+        color: #fff ;
+    }
+
+    .menu {
+        display: flex;
+        margin-left: 1rem;
+    }
+
+    .menu li a {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 8px;
+        letter-spacing: 0.1rem;
+    }
+
+    .menu li {
+        margin-right: 1rem;
+    }
+
+    .tel {
+        font-size: 10px;
+        text-decoration: none;
+        margin-left: auto;
+        letter-spacing: 0.1rem;
+        margin-right: 3%;
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+        padding-top: 1rem;
+        margin-left: 3%;
+        
+    }
+
+    .offer {
+        text-transform: uppercase;
+        font-size: 18px;
+        letter-spacing: 0.1em;
+        margin-top: 6rem;
+        margin-left: 3%;
+        color: #FFFFFF;
+        height: 12rem;
+    }
 
 
 
-.offer h1 {
-    margin-top: 0px;
-    margin-bottom: 2rem;
-}
+    .offer h1 {
+        margin-top: 0px;
+        margin-bottom: 1rem;
+    }
 
 
 
 
-.btn {
-    font-size: 17px;
-    border: 1px solid #fff;
-    padding: 18px 23px; 
+    .btn {
+        font-size: 10px;
+        border: 1px solid #fff;
+        padding: 10px 12.5px; 
+        
+    }
+
+    .about {
+        background-color: #fff;
+        margin-left: 3%;
+        margin-right: 3%;
+        align-items: center;
+    }
+
+    .about h1 {
+        font-family: 'Anton';
+        font-size: 20px;
+        margin-top: 4rem;
+        text-transform: uppercase;
+
+    }
+
+    .about h2 {
+        font-family: 'Anton';
+        font-size: 10px;
+        margin-top: 1rem;
+        text-transform: uppercase;
+    }
+
+    .about p {
+        font-family: 'Open Sans';
+        font-size: 10px;
+    }
+
+    .text2 {
+        margin-left: 22px;
+    }
+
+    .about-section{
+        display: flex;
+        justify-content: space-between;
+        
+    }
     
-}
 
-.about {
-    background-color: #fff;
-    margin-left: 10%;
-    margin-right: 10%;
-    align-items: center;
-}
-
-.about h1 {
-    font-family: 'Anton';
-    font-size: 50px;
-    margin-top: 5rem;
-    text-transform: uppercase;
-
-}
-
-.about h2 {
-    font-family: 'Anton';
-    font-size: 25px;
-    margin-top: 58px;
-    text-transform: uppercase;
-}
-
-.about p {
-    font-family: 'Open Sans';
-    font-size: 16px;
-}
-
-.text2 {
-    margin-left: 36px;
-}
-
-.about-section{
-    display: flex;
+    .imgages-bottom {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-between;
+    }
     
+    .imgages-bottom img {
+        width: 30%;
+    }
+
+    .gooter-texts {
+        display: flex;
+        font-family: 'Open Sans';
+        font-size: 9px;
+        justify-content: space-between;
+    }
+
+    .footer {
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 1rem;
+    }
 }
 
-.imgages-bottom {
-    margin-top: 2rem;
-    display: flex;
-    justify-content: space-between;
+@media (max-width: 540px){    
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: 'Anton', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        color: #000;
+        font-size: 8px;
+    }
+
+
+    h1,h2.h3.h4.h5.h6{
+        padding: 0;
+        margin: 0;
+        text-transform: uppercase;
+    }
+
+    ul,li {
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .header {
+        background: url('../img/header-bg.jpg') no-repeat center top / cover;
+        font-family: 'Anton', sans-serif;
+        color: #fff;
+        
+    }
+
+    header a {
+        color: #fff ;
+    }
+
+    .menu {
+        display: flex;
+        margin-left: 1rem;
+    }
+
+    .menu li a {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 6px;
+        letter-spacing: 0.1rem;
+    }
+
+    .menu li {
+        margin-right: 1rem;
+    }
+
+    .tel {
+        font-size: 8px;
+        text-decoration: none;
+        margin-left: auto;
+        letter-spacing: 0.1rem;
+        margin-right: 2%;
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+        padding-top: 1rem;
+        margin-left: 2%;
+        
+    }
+
+    .offer {
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 0.1em;
+        margin-top: 4rem;
+        margin-left: 2%;
+        color: #FFFFFF;
+        height: 10rem;
+    }
+
+
+
+    .offer h1 {
+        margin-top: 0px;
+        margin-bottom: 1rem;
+    }
+
+
+
+
+    .btn {
+        font-size: 8px;
+        border: 1px solid #fff;
+        padding: 8px 10px; 
+        
+    }
+
+    .about {
+        background-color: #fff;
+        margin-left: 2%;
+        margin-right: 2%;
+        align-items: center;
+    }
+
+    .about h1 {
+        font-family: 'Anton';
+        font-size: 16px;
+        margin-top: 3rem;
+        text-transform: uppercase;
+
+    }
+
+    .about h2 {
+        font-family: 'Anton';
+        font-size: 8px;
+        margin-top: 1rem;
+        text-transform: uppercase;
+    }
+
+    .about p {
+        font-family: 'Open Sans';
+        font-size: 8px;
+    }
+
+    .text2 {
+        margin-left: 16px;
+    }
+
+    .about-section{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+
+    .imgages-bottom {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .imgages-bottom img {
+        width: 30%;
+    }
+
+    .gooter-texts {
+        display: flex;
+        font-family: 'Open Sans';
+        font-size: 7px;
+        justify-content: space-between;
+    }
+
+    .footer {
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 1rem;
+    }
 }
 
-.gooter-texts {
-    display: flex;
-    font-family: 'Open Sans';
-    font-size: 15px;
-    justify-content: space-between;
-}
 
-.footer {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 3rem;
-}
 
 
