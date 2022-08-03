@@ -630,12 +630,13 @@
     }
 
     .text2 {
-        margin-left: 16px;
+        margin-left: 0px;
     }
 
     .about-section{
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+
         
     }
     
